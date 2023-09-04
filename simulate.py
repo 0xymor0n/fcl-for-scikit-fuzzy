@@ -21,7 +21,7 @@ from skfuzzy import control as ctrl
 from skfuzzy.control import ControlSystemSimulation
 from skfuzzy.control.controlsystem import CrispValueCalculator
 
-from fcl_parser import FCLParser
+from .fcl_parser import FCLParser
 
 _COMMENT_CHAR = '#'
 _FCL_SUFFIX = '.fcl'

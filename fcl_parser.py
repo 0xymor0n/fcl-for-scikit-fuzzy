@@ -24,8 +24,8 @@ import numpy as np
 import skfuzzy.control as ctrl
 import skfuzzy.control.term as fuzzterm
 
-from fcl_scanner import BufferedFCLLexer
-from fcl_symbols import NameMapper, SymbolTable
+from .fcl_scanner import BufferedFCLLexer
+from .fcl_symbols import NameMapper, SymbolTable
 
 # A universe is given this no. of points unless specified:
 _DEFAULT_UNIVERSE_SIZE = 1000

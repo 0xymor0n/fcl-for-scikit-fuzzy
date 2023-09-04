@@ -16,9 +16,9 @@ import skfuzzy.control.fuzzyvariable as fuzzvar
 import skfuzzy.control as ctrl
 import skfuzzy.control.term as fuzzterm
 
-import extramf
-import hedges
-import tnorms
+from . import extramf
+from . import hedges
+from . import tnorms
 
 # ############################
 # ### Membership functions ###

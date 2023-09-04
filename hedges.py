@@ -12,7 +12,7 @@
 
 import numpy as np
 import skfuzzy.membership as skmemb
-import extramf
+from . import extramf
 
 
 def above(mf):
